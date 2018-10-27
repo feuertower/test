@@ -9,7 +9,7 @@ class concreteObserver : public Observer
 public:
     concreteObserver(int id);
 
-    void update(int val1, int val2) override;
+    void update() override;
 
 
 private:

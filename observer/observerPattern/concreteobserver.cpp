@@ -5,7 +5,7 @@ concreteObserver::concreteObserver(int id)
     this->id=id;
 }
 
-void concreteObserver::update(int val1, int val2)
+void concreteObserver::update()
 {
     std::cout<<"-- Client: "<<id<<std::endl;
     std::cout<<"Value1: "<<val1<<std::endl;
