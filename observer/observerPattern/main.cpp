@@ -6,8 +6,8 @@ int main()
     concreteObserver obs(1);
     obs.askForValues();
 
-    concreteObserver obs2(2);
-    obs2.askForValues();
+    concreteObserver feature_123(2);
+    feature_123.askForValues();
 
 
     return 0;
