@@ -24,7 +24,7 @@ void concreteSubject::notifyObservers()
 {
     for(auto observer : obsList)
     {
-        observer->update(value1, value2);
+        observer->update();
     }
 }
 
@@ -34,4 +34,14 @@ void concreteSubject::setValues(int val1, int val2)
     value2 = val2;
 
     notifyObservers();
+}
+
+int concreteSubject::getValue1() const
+{
+    return value1;
+}
+
+int concreteSubject::getValue2() const
+{
+    return value2;
 }

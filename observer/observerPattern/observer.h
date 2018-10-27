@@ -6,7 +6,7 @@ class Observer
 {
 public:
     Observer();
-    virtual void update(int value1, int value2) = 0;
+    virtual void update() = 0;
 };
 
 #endif // OBSERVER_H

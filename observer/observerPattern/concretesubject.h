@@ -15,6 +15,9 @@ public:
 
     void setValues(int val1, int val2);
 
+    int getValue1() const;
+    int getValue2() const;
+
 private:
     std::vector<Observer*> obsList;
 
